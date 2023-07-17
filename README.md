@@ -9,7 +9,7 @@
 </p>
 
 The Pokedex is currently accessible at:
-https://bigodrigo.github.io/
+[https://bigodrigo.github.io/](https://bigodrigo.github.io/html-css-challenge/)
 
 ## 🚀 Technologies
 
