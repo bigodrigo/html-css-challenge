@@ -24,17 +24,18 @@ The Project forms a component of a series of challenges and milestones aimed at 
 ## 🔖 Layout
 
 <div align="center">
-    <p>Layout:</p>
-    <!-- <img src="./design/"> -->
+    <p>Web Layout:</p>
+    <img src="./design/web-layout.png">
 </div>
 
 <div align="center">
-    <p>Original Profile Challenge:</p>
-    <!-- <img src="./design/"> -->
-    <p>Original Header Challenge:</p>
-    <!-- <img src="./design/"> -->
-    <p>Original Images Challenge:</p>
-    <!-- <img src="./design/"> -->
+    <p>Tablet Layout:</p>
+    <img src="./design/tablet-layout.png">
+</div>
+
+<div align="center">
+    <p>Mobile Layout:</p>
+    <img src="./design/mobile-layout.png">
 </div>
 
 ## :muscle: Suggested Enhancements:
