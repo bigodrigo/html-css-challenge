@@ -8,7 +8,7 @@
   <a href="#-layout">Layout</a>
 </p>
 
-The Pokedex is currently accessible at:
+The Project is currently accessible at:
 https://bigodrigo.github.io/html-css-challenge/
 
 ## 🚀 Technologies
