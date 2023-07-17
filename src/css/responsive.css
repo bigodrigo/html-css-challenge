@@ -1,0 +1,43 @@
+@media(max-width: 760px){
+    .header, .menu {
+        flex-direction: column;
+    }
+
+    .logo h1, .menu li a {
+        font-size: 4rem;
+    }
+
+    .menu {
+        margin-top: 5rem;
+    }
+
+    .menu li {
+        padding: 3rem 0;
+    }
+
+    .menu li a {
+        padding: 1.5rem 4rem;
+    }
+
+    .menu li:last-child {
+        margin-top: 2rem;
+    }
+
+    .menu li a.btn {
+        font-size: 1.8rem;
+        padding: 1.5rem 3rem;
+    }
+    .template {
+        padding: 45px 20px;
+    }
+
+    .painting {
+        width: 100%;
+    }
+
+    .paint-info {
+        position: absolute;
+        top: 350px;
+        left: 20px;
+    }
+}

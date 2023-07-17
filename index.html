@@ -7,32 +7,73 @@
     <link rel="stylesheet" href="./src/css/reset.css">
     <link rel="stylesheet" href="./src/css/variables.css">
     <link rel="stylesheet" href="./src/css/style.css">
-    <title>Frontend Mentor | Profile card component</title>
+    <link rel="stylesheet" href="./src/css/header-style.css">
+    <link rel="stylesheet" href="./src/css/img-style.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+    <title>Frontend Mentor Challenges</title>
 </head>
 <body>
-    <main class="container">
-        <div class="card">
-            <div class="profile-informations">
-                <img src="./src/images/image-victor.jpg" alt="Profile picture image">
-                <p>Victor Crest <span class="age">26</span></p>
-                <span class="city">London</span>
-            </div>
-            <hr>
-            <ul class="profile-numbers">
-                <li class="info">
-                    <p class="counter">80K</p>
-                    <span class="counter-type">Followers</span>
-                </li>
-                <li class="info">
-                    <p class="counter">803K</p>
-                    <span class="counter-type">Likes</span>
-                </li>
-                <li class="info">
-                    <p class="counter">1.4K</p>
-                    <span class="counter-type">Photos</span>
-                </li>
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="./src/images/logo.png" alt="logo thebank">
+            <h1>thebank</h1>
+        </a>
+        <nav>
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Carreira</a></li>
+                <li><a href="#" class="btn">Cadastre-se</a></li>
             </ul>
-        </div>
+        </nav>
+    </header>
+    <main>
+        <section class="container">
+            <div class="card">
+                <div class="profile-informations">
+                    <img src="./src/images/image-victor.jpg" alt="Profile picture image">
+                    <p>Victor Crest <span class="age">26</span></p>
+                    <span class="city">London</span>
+                </div>
+                <hr>
+                <ul class="profile-numbers">
+                    <li class="info">
+                        <p class="counter">80K</p>
+                        <span class="counter-type">Followers</span>
+                    </li>
+                    <li class="info">
+                        <p class="counter">803K</p>
+                        <span class="counter-type">Likes</span>
+                    </li>
+                    <li class="info">
+                        <p class="counter">1.4K</p>
+                        <span class="counter-type">Photos</span>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="img-container">
+            <div class="template">
+                <div class="painting">
+                    <img src="./src/images/rome.jpg" alt="Rome Painting">
+                    <p class="paint-info"><span class="paint-name">Rome</span>Michelangelo</p>
+                </div>
+                <div class="painting">
+                    <img src="./src/images/boat.png" alt="Boat at Sea Painting">
+                    <p class="paint-info"><span class="paint-name">Boat at Sea</span>Vincent Van Gogh</p>
+                </div>
+                <div class="painting">
+                    <img src="./src/images/sand.png" alt="Sand and Sea Painting">
+                    <p class="paint-info"><span class="paint-name">Sand and Sea</span>Da Vinci</p>
+                </div>
+                <div class="painting">
+                    <img src="./src/images/night.png" alt="Starry Night Painting">
+                    <p class="paint-info"><span class="paint-name">Starry Night</span>Vincent Van Gogh</p>
+                </div>
+            </div>
+        </section>
     </main>
 </body>
 </html>

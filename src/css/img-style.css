@@ -1,0 +1,36 @@
+.img-container {
+    max-width: 1440px;
+    margin: auto;
+    background-color: white;
+}
+
+.template {
+    width: 100%;
+    padding: 128px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.painting {
+    position: relative;
+}
+
+.paint-info {
+    font-family: 'Public Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 330px;
+    left: 25px;
+    color: white;
+}
+
+.paint-info .paint-name {
+    font-size: 30px;
+    font-weight: 700;
+}
